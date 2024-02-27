@@ -1,0 +1,6 @@
+framework module CustomToastMessage {
+  umbrella header "CustomToastMessage-umbrella.h"
+
+  export *
+  module * { export * }
+}

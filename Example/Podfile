@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'CustomToastMessage_Example' do
+  pod 'CustomToastMessage', :path => '../'
+
+  target 'CustomToastMessage_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
